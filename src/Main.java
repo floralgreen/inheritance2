@@ -1,11 +1,16 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
-        Rettangolo rett1 = new Rettangolo();
 
-        double area = rett1.calcolaArea(10, 20);
-        System.out.println(area);
+        Forma forma1 = new Forma("Forma generica");
+        forma1.stampaArea();
+        System.out.println();
 
+        Rettangolo rett1 = new Rettangolo("Rettangolo", 4, 5,8);
+
+        rett1.stampaArea();
 
     }
 

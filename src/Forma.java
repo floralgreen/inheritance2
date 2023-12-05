@@ -1,8 +1,21 @@
 public class Forma {
 
-    public double calcolaArea(double arg1, double arg2){
-        double area = 0;
-        return area;
+    private String nome;
+
+    public Forma(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void stampaArea(){
+        System.out.print("Area di: ");
     }
 
 }
